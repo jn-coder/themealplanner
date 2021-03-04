@@ -8,7 +8,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'clearance', '~> 1.15.1'
-
+gem 'sprockets', '3.7.2'
 gem 'nokogiri', '1.6.8.1'
 
 group :development, :test do
