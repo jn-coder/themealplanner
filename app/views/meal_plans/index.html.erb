@@ -1,5 +1,7 @@
+<div class="title-container"
 <h1>Meal Plans</h1>
-
+<%= link_to "New Meal Plan", new_meal_plan_path, class: "btn btn-primary" %>
+</div>
 <% if @current_meal_plan.present? %>
   <h2>Current Meal Plan</h2>
   <div>
@@ -20,7 +22,3 @@
     <%= link_to meal_plan, meal_plan_path(meal_plan) %>
   </div>
 <% end %>
-
-<div class="actions">
-  <%= link_to "New Meal Plan", new_meal_plan_path %>
-</div>
